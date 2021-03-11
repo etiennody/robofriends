@@ -4,6 +4,8 @@ import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
 import './App.css';
 
+import { setSearchField } from '../actions';
+
 class App extends Component {
   constructor() {
     super()
